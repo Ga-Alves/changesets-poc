@@ -1,12 +1,13 @@
 {
   "name": "poc-mec-cli",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsup",
-    "changeset:generate": "changeset add"
+    "changeset:add": "changeset add",
+    "changeset:version": "changeset version"
   },
   "keywords": [
     "changeset",
