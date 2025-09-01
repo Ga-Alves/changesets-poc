@@ -1,0 +1,26 @@
+{
+  "name": "my-app",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup ",
+    "start": "ts-node ./src/index.ts"
+  },
+  "keywords": [
+    "changeset",
+    "poc"
+  ],
+  "author": "Ga-Alves",
+  "license": "ISC",
+  "description": "changeset poc",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "poc-mec-cli": "^0.0.2"
+  }
+}

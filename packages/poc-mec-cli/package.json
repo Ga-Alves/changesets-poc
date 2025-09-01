@@ -1,0 +1,23 @@
+{
+  "name": "poc-mec-cli",
+  "version": "0.0.2",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "changeset:generate": "changeset add"
+  },
+  "keywords": [
+    "changeset",
+    "poc"
+  ],
+  "author": "Ga-Alves",
+  "license": "ISC",
+  "description": "changeset poc",
+  "devDependencies": {
+    "@changesets/cli": "^2.29.6",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.2"
+  }
+}
