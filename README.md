@@ -4,9 +4,9 @@
 
 Neste repo temos 2 pacotes:
 
-[poc-mec-cli](./poc-mec-cli/README.md): ferramenta que vamos utlizar o changesets para gerenciamento das versões e geração do changelog.
+[poc-mec-cli](./packages/poc-mec-cli/README.md): ferramenta que vamos utlizar o changesets para gerenciamento das versões e geração do changelog.
 
-[app](app/README.md): aplicação simples para testar a ferramenta poc-mec-cli
+[app](./packages/app/README.md): aplicação simples para testar a ferramenta poc-mec-cli
 
 # Como testar o changesets neste repo?
 
@@ -15,10 +15,10 @@ Neste repo temos 2 pacotes:
 2- Adicione um changeset
 
  Execute o comando `npm run changesets:add` e selecione o tipo da versão de acordo com o SemVer.
- ![alt text](./docs/image.png)
+ ![alt text](./packages/docs/image.png)
 
  Adicione uma descrição para suas mudanças
- ![alt text](./docs/image2.png)
+ ![alt text](./packages/docs/image2.png)
 
 3- Dê push nas alterações.
 
