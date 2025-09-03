@@ -36,6 +36,9 @@ Execute o comando `npm run changeset:version` para isso. Ele irá deletar todos 
 5- realize o push do bump
 
 6- Publique o pacote npm
+> [!WARNING]
+> Este passo só é possível caso o arquivo `.npmrc` esteja em `packages/poc-mec-cli/.npmrc`
+
 Execute `changeset:publish` para publicar o pacote npm e gerar a git tag.
 
 Realize o push da tag `git push --tag`
