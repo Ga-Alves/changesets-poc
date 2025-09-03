@@ -7,7 +7,8 @@
   "scripts": {
     "build": "tsup",
     "changeset:add": "changeset add",
-    "changeset:version": "changeset version"
+    "changeset:version": "changeset version",
+    "changeset:publish": "changeset publish"
   },
   "keywords": [
     "changeset",
