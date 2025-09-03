@@ -42,3 +42,9 @@ Execute o comando `npm run changeset:version` para isso. Ele irá deletar todos 
 Execute `changeset:publish` para publicar o pacote npm e gerar a git tag.
 
 Realize o push da tag `git push --tag`
+
+7 (Opcional) - 
+
+Caso queira testar a alteração do pacote basta executar `npm i poc-mec-cli@latest` dentro de `packages/app` para baixar a ultima versão da ferramenta.
+
+Altere o codigo `index.ts` do app e depois execute `npm run start` para executar-lo
