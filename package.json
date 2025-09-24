@@ -10,12 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bereis01/MES_Tool_Demo.git"
+    "url": "git+https://github.com/Ga-Alves/changesets-poc.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bereis01/MES_Tool_Demo/issues"
+    "url": "https://github.com/Ga-Alves/changesets-poc/issues"
   },
-  "homepage": "https://github.com/bereis01/MES_Tool_Demo#readme"
+  "homepage": "https://github.com/Ga-Alves/changesets-poc#readme"
 }
