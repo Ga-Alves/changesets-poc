@@ -21,6 +21,7 @@
     "typescript": "^5.9.2"
   },
   "dependencies": {
-    "poc-mec-cli": "^0.0.2"
+    "mes-greetings": "^1.0.0",
+    "mes-math": "^1.0.0"
   }
 }
