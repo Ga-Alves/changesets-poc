@@ -4,9 +4,11 @@
 
 Neste repo temos 2 pacotes:
 
-[poc-mec-cli](./packages/poc-mec-cli/README.md): ferramenta que vamos utlizar o changesets para gerenciamento das versões e geração do changelog.
+[mes-greetings](./packages/mes-greetings/README.md): ferramenta que vamos utlizar o changesets para gerenciamento das versões e geração do changelog.
 
-[app](./packages/app/README.md): aplicação simples para testar a ferramenta poc-mec-cli
+[mes-math](./packages/mes-math/README.md): ferramenta que vamos utlizar o changesets para gerenciamento das versões e geração do changelog.
+
+[app](./packages/app/README.md): aplicação simples para testar a ferramenta mes-greetings e mes-math
 
 # Como testar o changesets neste repo?
 
@@ -14,11 +16,16 @@ Neste repo temos 2 pacotes:
 
 2- Adicione um changeset
 
- Execute o comando `npm run changesets:add` e selecione o tipo da versão de acordo com o SemVer.
- ![alt text](./packages/docs/image.png)
+ Execute o comando `npm run changesets:add` e selecione:
+ 
+ 1 - O pacote que deseja atualizar
+ ![alt text](./docs/select-pkg.png)
+
+ 2 - O tipo da versão de acordo com o SemVer.
+ ![alt text](./docs/image.png)
 
  Adicione uma descrição para suas mudanças
- ![alt text](./packages/docs/image2.png)
+ ![alt text](./docs/image2.png)
 
 3- Dê push nas alterações.
 
@@ -31,20 +38,20 @@ A ideia principal ate aqui é permitir que desenvolvedores alterem o contrato da
 
 4- Gere o changelog e realize o bump das versões dos pacotes
 
-Execute o comando `npm run changeset:version` para isso. Ele irá deletar todos os changesets gerados no passo 2 e gerar o arquivo de changelog.
+Execute o comando `npm run generate-changelogs` para isso. Ele irá deletar todos os changesets gerados no passo 2 e gerar o arquivo de changelog.
 
 5- realize o push do bump
 
 6- Publique o pacote npm
 > [!WARNING]
-> Este passo só é possível caso o arquivo `.npmrc` esteja em `packages/poc-mec-cli/.npmrc`
+> Este passo só é possível caso o arquivo `.npmrc` esteja em `packages/mes-greetings/.npmrc`
 
-Execute `changeset:publish` para publicar o pacote npm e gerar a git tag.
+Execute `npm run publish-packages` para publicar o pacote npm e gerar a git tag.
 
 Realize o push da tag `git push --tag`
 
 7 (Opcional) - 
 
-Caso queira testar a alteração do pacote basta executar `npm i poc-mec-cli@latest` dentro de `packages/app` para baixar a ultima versão da ferramenta.
+Caso queira testar a alteração do pacote basta executar `npm i mes-greetings@latest` dentro de `packages/app` para baixar a ultima versão da ferramenta.
 
 Altere o codigo `index.ts` do app e depois execute `npm run start` para executar-lo

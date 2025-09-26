@@ -1,0 +1,22 @@
+{
+  "name": "mes-greetings",
+  "version": "1.0.2",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "changeset",
+    "poc"
+  ],
+  "author": "Ga-Alves",
+  "license": "ISC",
+  "description": "POC of changesets tool",
+  "devDependencies": {
+    "@changesets/cli": "^2.29.6",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.2"
+  }
+}

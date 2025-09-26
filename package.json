@@ -1,0 +1,28 @@
+{
+  "name": "poc-changesets",
+  "version": "1.0.0",
+  "description": "[Changesets](https://akinoccc.github.io/changesets/) é uma ferramenta que ajuda com o gerenciamento de versões SemVer e na geração de changelogs",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run build --workspaces",
+    "changeset:add": "changeset add",
+    "generate-changelogs": "changeset version",
+    "publish-packages": "npm run build --workspaces && changeset publish"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "keywords": [
+    "changesets",
+    "monorepo"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@changesets/cli": "^2.29.7"
+  }
+}

@@ -1,14 +1,11 @@
 {
-  "name": "poc-mec-cli",
-  "version": "1.0.0",
+  "name": "mes-math",
+  "version": "1.0.2",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "tsup",
-    "changeset:add": "changeset add",
-    "changeset:version": "changeset version",
-    "changeset:publish": "changeset publish"
+    "build": "tsup"
   },
   "keywords": [
     "changeset",
@@ -16,7 +13,7 @@
   ],
   "author": "Ga-Alves",
   "license": "ISC",
-  "description": "changeset poc",
+  "description": "POC of changesets math function package.",
   "devDependencies": {
     "@changesets/cli": "^2.29.6",
     "tsup": "^8.5.0",
