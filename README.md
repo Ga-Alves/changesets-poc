@@ -44,7 +44,7 @@ Execute o comando `npm run generate-changelogs` para isso. Ele irá deletar todo
 
 6- Publique o pacote npm
 > [!WARNING]
-> Este passo só é possível caso o arquivo `.npmrc` esteja em `packages/mes-greetings/.npmrc`
+> Este passo só é possível caso o arquivo `.npmrc` esteja na raiz do repositório.
 
 Execute `npm run publish-packages` para publicar o pacote npm e gerar a git tag.
 
