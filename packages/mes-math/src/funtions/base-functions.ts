@@ -7,3 +7,8 @@ export function sum(param: SumParamsT) {
 export function sub(a:number, b:number){
     return a - b;
 }
+
+export function div(a:number, b:number){
+    if(b===0) return NaN;
+    return a / b;
+}
