@@ -16,3 +16,8 @@ export function div(a:number, b:number){
     if(b===0) return NaN;
     return a / b;
 }
+
+export function abs(a:number){
+    if (a < 0) return a*-1;
+    return a;
+}
