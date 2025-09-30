@@ -5,5 +5,5 @@ export function greetings(param: GreetingsParamT) {
 }
 
 export function saldacao(firstName: string) {
-    console.log('Ola ' + firstName);
+    console.log('Olá ' + firstName);
 }
