@@ -1,4 +1,4 @@
-export type GeeringParamT = {
+export type GreetingsParamT = {
     name: string,
     lastName: string
 }
