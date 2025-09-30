@@ -4,6 +4,6 @@ export function greetings(param: GreetingsParamT) {
     console.log('Hello ' + param.name + " " + param.lastName);
 }
 
-export function saldacao(param: GreetingsParamT) {
-    console.log('Ola ' + param.name + " " + param.lastName);
+export function saldacao(firstName: string) {
+    console.log('Ola ' + firstName);
 }
