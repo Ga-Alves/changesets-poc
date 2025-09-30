@@ -1,5 +1,11 @@
 # mes-math
 
+## 1.2.0
+
+### Minor Changes
+
+- 0390c37: Add mult function
+
 ## 1.1.0
 
 ### Minor Changes
