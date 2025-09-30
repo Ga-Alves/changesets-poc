@@ -1,2 +1,2 @@
-export * from './funtions/base-functions'
-export * from './funtions/base-functions.type'
+export * from './functions/base-functions'
+export * from './functions/base-functions.type'

@@ -1,2 +1,2 @@
-export * from './funtions/greetings'
-export * from './funtions/greetings.type'
+export * from './functions/greetings'
+export * from './functions/greetings.type'
