@@ -5,9 +5,9 @@ export function sum(param: SumParamsT) {
 }
 
 // Uncomment to demo
-// export function sumAll(values:number[]) {
-//     return values.reduce((value, acc)=> acc + value, 0)
-// }
+export function sumAll(values:number[]) {
+    return values.reduce((value, acc)=> acc + value, 0)
+}
 
 export function sub(a:number, b:number){
     return a - b;
