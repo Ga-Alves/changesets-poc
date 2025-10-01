@@ -21,3 +21,7 @@ export function abs(a:number){
     if (a < 0) return a*-1;
     return a;
 }
+
+export function power(a:number){
+    return a*2;
+}
