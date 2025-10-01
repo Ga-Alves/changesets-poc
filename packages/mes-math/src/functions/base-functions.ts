@@ -4,6 +4,11 @@ export function sum(param: SumParamsT) {
     return param.a + param.b;
 }
 
+// Uncomment to demo
+// export function sumAll(values:number[]) {
+//     return values.reduce((value, acc)=> acc + value, 0)
+// }
+
 export function sub(a:number, b:number){
     return a - b;
 }
@@ -25,3 +30,4 @@ export function abs(a:number){
 export function power(a:number){
     return a**2;
 }
+
