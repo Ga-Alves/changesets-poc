@@ -23,5 +23,5 @@ export function abs(a:number){
 }
 
 export function power(a:number){
-    return a*2;
+    return a**2;
 }
