@@ -1,5 +1,15 @@
 # mes-greetings
 
+## 3.1.0
+
+### Minor Changes
+
+- dcd52b3: Add greetingsForAll function
+
+### Patch Changes
+
+- 7e18321: Fix typo in log, Helllo to Hello
+
 ## 3.0.0
 
 ### Major Changes

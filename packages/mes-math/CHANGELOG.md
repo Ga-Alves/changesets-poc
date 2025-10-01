@@ -1,5 +1,16 @@
 # mes-math
 
+## 1.4.0
+
+### Minor Changes
+
+- f437a69: Add sumAll function
+- 314334a: Add power function
+
+### Patch Changes
+
+- d7f58eb: Fix power function, now does exponentiation instead of multiplication
+
 ## 1.3.0
 
 ### Minor Changes
