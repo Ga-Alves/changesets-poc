@@ -5,7 +5,7 @@ export function greetings(param: GreetingsParamT) {
 }
 
 export function greetingsForAll(names: string[]) {
-    names.forEach((name) => console.log('Helllo ' + name))
+    names.forEach((name) => console.log('Hello ' + name))
 }
 
 export function saldacao(firstName: string) {
